@@ -11,8 +11,7 @@ public class ControlePagamento {
   }
 
   private ContaFinanciamento criandoCadeiaDeChamadas() {
-    ContaFinanciamento
-        contaFinanciamento = new ContaFinanciamento();
+    ContaFinanciamento contaFinanciamento = new ContaFinanciamento();
     ContaLuz contaLuz = new ContaLuz();
     ContaAgua contaAgua = new ContaAgua();
     contaFinanciamento.setProximaConta(contaLuz);
