@@ -1,4 +1,4 @@
-# O Strategy
+# O Command
 
 O Command é um padrão de projeto comportamental que converte solicitações ou operações simples em objetos. Utilize o
 padrão Command quando você quer colocar operações em fila, agendar sua execução, ou executá-las remotamente. O padrão
