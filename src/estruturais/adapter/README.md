@@ -1,7 +1,8 @@
 # Adapter
 
 O Adapter é um padrão de projeto estrutural que permite objetos com interfaces incompatíveis colaborarem entre si.
-Facilita a utilizacao de várias implementacoes que podem mudar durante o desenvolvimento do codigo.
+Facilita a utilizacao de várias implementacoes que podem mudar durante o desenvolvimento do codigo e detalhes de
+infraestrutura.
 
 * 1 - O adaptador obtém uma interface, compatível com um dos objetos existentes.
 * 2 - Usando essa interface, o objeto existente pode chamar os métodos do adaptador com segurança.
