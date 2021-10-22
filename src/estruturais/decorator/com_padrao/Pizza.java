@@ -10,6 +10,10 @@ public class Pizza {
         this.tipoPizza = tipoPizza;
     }
 
+    public Pizza() {
+
+    }
+
     public String receita() {
         return tipoPizza.receita();
     }
