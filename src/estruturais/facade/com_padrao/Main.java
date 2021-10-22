@@ -6,7 +6,7 @@ public class Main {
 
         Conta contaOrigem = new Conta("888888888");
         Conta contaDestino = new Conta("777777777");
-        TransferenciaFacade transferenciaFacade = new TransferenciaFacade();
+        TransferenciaFacade transferenciaFacade = new TransferenciaBradesco();
 
         // logica complexa encapsulada Tell dont't ask
         transferenciaFacade.executarTransferencia(contaOrigem, contaDestino, 100.00);
